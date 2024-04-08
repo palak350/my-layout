@@ -1,0 +1,110 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: black;
+}
+
+.navbar {
+    width: 100%;
+    height: auto;
+    background-color: blue;
+}
+
+.main {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar ul li {
+    list-style-type: none;
+    padding: 10px;
+
+}
+
+.mainContainer {
+    display: flex;
+}
+
+.sidebar {
+    width: 30%;
+    height: auto;
+    overflow: hidden;
+    background-color: aliceblue;
+
+}
+
+.sidebar ul li {
+
+    text-align: center;
+    padding: 25px;
+    color: black;
+    padding: 25px;
+    font-size: larger;
+    font-family: cursive;
+    font-weight: bolder;
+}
+
+.container {
+    width: 70%;
+    height: 100vh;
+    background-color: navy;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+    padding: 2em;
+    font-size: 30px;
+}
+
+.main2 {
+    display: flex;
+    gap: 15px;
+    height:auto ;
+
+}
+
+.card {
+    border: 2px solid white;
+    height: 250px;
+    font-size: 25px;
+    color: black;
+    padding: 2px;
+    
+
+}
+.card1 h1 {
+    background-color: blue}
+
+.card2 h1{
+    background-color: orange;
+}
+
+
+.card3 h1{
+    background-color: red;
+    
+}
+.card4 h1{
+    background-color: violet;
+}.button1 {
+    background-color: blue;
+    
+}.button2{
+    background-color: orange;
+}
+.button3{
+    background-color: red;
+}
+.button4{
+    background-color: violet;
+}.text{
+    background-color: aliceblue;
+    
+}
